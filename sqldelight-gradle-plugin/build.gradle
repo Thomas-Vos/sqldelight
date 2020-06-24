@@ -35,6 +35,7 @@ dependencies {
 
   compileOnly gradleApi()
   implementation deps.plugins.kotlin
+  implementation "org.jetbrains.kotlin:kotlin-compiler-embeddable:1.4-M2" // TODO
   implementation deps.plugins.androidDependency
 
   testImplementation deps.junit
