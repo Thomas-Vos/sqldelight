@@ -30,6 +30,10 @@ class GradlePluginCombinationTests {
         |android {
         |  compileSdkVersion versions.compileSdk
         |}
+        |
+        |kotlin {
+        |  android {}
+        |}
       """.trimMargin())
 
       configure()
